@@ -7,6 +7,7 @@ class JavaFXAppTest {
         assertEquals(0,0);
     }
     
+    @Test
     public void testComputeDivide(){
         int nummer1 = 10;
         int nummer2 = 10;
