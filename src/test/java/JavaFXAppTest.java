@@ -16,12 +16,12 @@ class JavaFXAppTest {
     }
 
     @Test
-    void test(){
+    void testComputeMultiply(){
         Assertions.assertEquals(6, new JavaFXApp().computeMultiply(2, 3));        
-    }
-    
+    }  
+
     @Test
-    void addTest(){
+    void testComputeAdd(){
         Assertions.assertEquals(3, new JavaFXApp().computeAdd(1, 2));
     }
 }
