@@ -25,6 +25,7 @@ hs_err_pid*
 
 # paden voor ontwikkelomgeving uitgesloten.
 .idea
+.vscode
 *.iml
 out
 target
