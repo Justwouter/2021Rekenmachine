@@ -10,16 +10,16 @@ class JavaFXAppTest {
     
     @Test
     void testComputeDivide(){       
-        Assertions.assertEquals(1, new JavaFXApp().computeDivide(1, 1));
+        Assertions.assertEquals(1, new DevideCompute().compute(1, 1));
     }
 
     @Test
     void testComputeMultiply(){
-        Assertions.assertEquals(6, new JavaFXApp().computeMultiply(2, 3));        
+        Assertions.assertEquals(6, new MultiplyCompute().compute(2, 3));        
     }  
 
     @Test
     void testComputeAdd(){
-        Assertions.assertEquals(3, new JavaFXApp().computeAdd(1, 2));
+        Assertions.assertEquals(3, new PlusCompute().compute(1, 2));
     }
 }
