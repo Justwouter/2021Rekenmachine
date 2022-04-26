@@ -13,9 +13,9 @@ class JavaFXAppTest {
     @Test
     void test(){
         JavaFXApp Multiply = new JavaFXApp();
-        Assertions.assertEquals(6, Multiply.computeMultiply(2, 3));        
+        Assertions.assertEquals(6, Multiply.computeMultiply(2, 3));
+    }    
 
-    
     @Test
     void addTest(){
         Assertions.assertEquals(3, new JavaFXApp().computeAdd(1, 2));
